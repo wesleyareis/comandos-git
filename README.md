@@ -1,10 +1,10 @@
 # comandos-git
-**Principais comandos que são utilizados no Git.**
+➡️ **Principais comandos que são utilizados no Git.**
 
 | Comandos | Descrição |
 | :--- | :--- |
-| `git status` | Liste todos os arquivos *novos ou modificados* |
-| `git diff` | Mostrar diferenças de arquivos que **não foram** preparados |
+| ```git status``` | Liste todos os arquivos *novos ou modificados* |
+| ```git diff``` | Mostrar diferenças de arquivos que **não foram** preparados |
 
 - [x] #739
 - [ ] #Atualizar este projeto amanhã
