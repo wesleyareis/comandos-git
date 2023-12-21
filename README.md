@@ -1,15 +1,25 @@
 # comandos-git
-Principais comandos que são utilizados no Git.
+**Principais comandos que são utilizados no Git.**
 
-### ➡️ Inicializar novo projeto no Git:
+The background color is `#0969DA` for light mode and `#000000` for dark mode.
+
+<details>
+<summary>1. git init</summary>
+➡️ Inicializar novo projeto no Git:
+
 ```bash
 git init
 ```
+</details>
 
-#### ➡️ Verifica o estado da ramificação:
+<details>
+<summary>2. git status</summary>
+➡️ Verifica o estado da ramificação:
+
 ```bash
 git status
 ```
+</details>
 
 #### ➡️ Add ou preparar o código/arquivos para serem commitados:
 ```bash
