@@ -7,6 +7,7 @@
 | `git diff` | Mostrar diferenças de arquivos que **não foram** preparados |
 
 - [x] #739
+- [ ] #Atualizar este projeto amanhã
 
 The background color is `#0969DA` for light mode and `#000000` for dark mode.
 
