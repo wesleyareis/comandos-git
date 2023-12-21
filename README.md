@@ -1,11 +1,18 @@
 # comandos-git
 **Principais comandos que são utilizados no Git.**
 
+| Comandos | Descrição |
+| :--- | :--- |
+| `git status` | Liste todos os arquivos *novos ou modificados* |
+| `git diff` | Mostrar diferenças de arquivos que **não foram** preparados |
+
+- [x] #739
+
 The background color is `#0969DA` for light mode and `#000000` for dark mode.
 
 <details>
 <summary>1. git init</summary>
-➡️ Inicializar novo projeto no Git:
+➡️ Inicialize um novo repositório Git:
 
 ```bash
 git init
@@ -14,7 +21,8 @@ git init
 
 <details>
 <summary>2. git status</summary>
-➡️ Verifica o estado da ramificação:
+
+➡️ Use `git status` para listar todos os arquivos novos ou modificados que ainda não foram comitados.
 
 ```bash
 git status
@@ -45,7 +53,7 @@ git log
 git diff
 ```
 
-### Mostra qual a branch que está atualmente:
+### Mostra as branches que estão sendo trabalhadas localmente:
 ```bash
 git branch
 ```
@@ -64,7 +72,7 @@ git checkout master
 git checkout <nome-da-branch>
 ```
 
-#### Merge de ramificações, mescla as ramificações:
+#### Mescla as linhas de desenvolvimento. De modo geral, esse comando é usado para combinar alterações feitas em dois branches distinto:
 ```bash
 git merge <nome-da-nova-branch>
 ```
@@ -74,12 +82,12 @@ git merge <nome-da-nova-branch>
 git remote add origin <url-repositorio-remoto>
 ```
 
-### Subir/manda alterações do código local para repositório remoto (Github):
+### Subir/manda alterações do código local para repositório remoto (Github) ou atualiza o repositório remoto com todos os commits feitos localmente em um branch:
 ```bash
 git push origin <nome-da-branch>
 ```
 
-### Pega as alterações do repositório remoto, e joga para nossa máquina local:
+### Pega as alterações do repositório remoto, e joga para nossa máquina local ou atualiza a linha de desenvolvimento local com atualizações do equivalente remoto:
 ```bash
 git pull origin <nome-da-branch>
 ```
@@ -104,4 +112,5 @@ git log</br>
 git push</br>
 git pull</br>
 git fetch</br>
+git clone</br>
 </p>
