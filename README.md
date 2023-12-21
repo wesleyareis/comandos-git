@@ -1,17 +1,17 @@
 # comandos-git
 Principais comandos que são utilizados no Git.
 
-### Inicializar o Git:
+### ➡️ Inicializar novo projeto no Git:
 ```bash
 git init
 ```
 
-### verificar o status atual da ramificação ou alterações atuais feitas no código:
+#### ➡️ Verifica o estado da ramificação:
 ```bash
 git status
 ```
 
-### Preparar o código que será commitado:
+#### ➡️ Add ou preparar o código/arquivos para serem commitados:
 ```bash
 git add <file>
 ```
@@ -20,12 +20,12 @@ git add <file>
 git restore <file>
 ```
 
-### Commitar o código que foi alterado:
+### Commita o código/arquivos no histórico das versões:
 ```bash
 git commit -m "<sua mensagem de alteração feita>"
 ```
 
-### verificar o histórico dos commits no código:
+### Mostra os últimos commit, log de alterações:
 ```bash
 git log
 ```
@@ -39,9 +39,9 @@ git diff
 ```bash
 git branch
 ```
-### Cria uma nova branch de ramificação:
+### Cria uma nova branch a partir do histórico da branch atual que estamos:
 ```bash
-git checkout -b <nome-da-nova-branch>
+git checkout -b <nome-da-branch>
 ```
 
 ### Voltar para branch principal:
@@ -51,32 +51,32 @@ git checkout master
 
 ### Voltar para branch criada:
 ```bash
-git checkout <nome-da-nova-branch>
+git checkout <nome-da-branch>
 ```
 
-### verificar o status atual do dev
+#### Merge de ramificações, mescla as ramificações:
 ```bash
-git merge
+git merge <nome-da-nova-branch>
 ```
 
-### verificar o status atual do dev
+### Preparar o repositório remoto do código para Github
 ```bash
-git merge
+git remote add origin <url-repositorio-remoto>
 ```
 
-### verificar o status atual do dev
+### Subir/manda alterações do código local para repositório remoto (Github):
 ```bash
-git merge
+git push origin <nome-da-branch>
 ```
 
-### verificar o status atual do dev
+### Pega as alterações do repositório remoto, e joga para nossa máquina local:
 ```bash
-git merge
+git pull origin <nome-da-branch>
 ```
 
-### verificar o status atual do dev
+### Atualiza o novo histórico local de acordo com o histórico salvo lá no repositório remoto:
 ```bash
-git merge
+git fetch
 ```
 
 <p>
@@ -89,9 +89,9 @@ git diff</br>
 git branch</br>
 git branch -b</br>
 git checkout</br>
-git pull</br>
-git push</br>
-git branch</br>
+git marge</br>
 git log</br>
-
+git push</br>
+git pull</br>
+git fetch</br>
 </p>
