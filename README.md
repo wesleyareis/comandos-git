@@ -1,10 +1,12 @@
 # comandos-git
 ## ➡️ Principais comandos que são utilizados no Git
 
-| **id** | **Descrição** | **Comandos** |
-| :-----:| :------------ | :----------- |
-| 1. | *Inicialize* um novo repositório Git | `git init` |
-| 2. | Liste todos os arquivos *novos ou modificados* | `git status` |
+| **id** | **Descrição** | **Comandos** | **Opções** |
+| :-----:| :------------ | :----------- | :--------- |
+| 1. | *Inicialize* um novo repositório Git | `git init` | - |
+| 2. | Liste todos os arquivos *novos ou modificados* | `git status` | - |
+| 3. | Liste todos os arquivos *novos ou modificados* | `git add` | file  |
+| 3. | Liste todos os arquivos *novos ou modificados* | `git restore` | file  |
 | `git add` | Adiciona o conteúdo dos arquivos ao índice |
 | `git restore` | Descartar alterações do código na área de trabalho |
 | `git status` | Liste todos os arquivos *novos ou modificados* |
