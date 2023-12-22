@@ -1,9 +1,9 @@
 # comandos-git
 ➡️ **Principais comandos que são utilizados no Git.**
 
-| id | Comandos | Descrição |
-| ---| -------- | --------- |
-| 1. | `git init` | *Inicialize* um novo repositório Git |
+| <font color="magenta">**Comandos**</font> | <font color="magenta">**Descrição**</font> |
+| -------- | --------- |
+| `git init` | *Inicialize* um novo repositório Git |
 | `git status` | Liste todos os arquivos *novos ou modificados* |
 | `git add` | Adiciona o conteúdo dos arquivos ao índice |
 | `git restore` | Descartar alterações do código na área de trabalho |
@@ -22,26 +22,6 @@
 
 - [x] #739
 - [ ] #Atualizar este projeto amanhã
-
-<font color=\"red\">Texto com cor vermelha</font>
-
-<kbd>{c:yellow}Essa é uma frase com fundo escuro e texto amarelo{/c}</kbd>
-
-{c:green}[fa=check-circle /]{/c} Meu Ícone Verde
-
-{c:red}[fa=times-circle /]{/c} Meu Ícone Vermelho
-
-[size=30][fa=check-circle /] Tamanho 30[/size]
-
-Este é um {c:#B81365}texto colorido com hexadecimal{/c}
-
-Este é um {c:red}texto vermelho.{/c}
-
-| Option | Description |
-| ------ | ----------- |
-| data   | path to data files to supply the data that will be passed into templates. |
-| engine | engine to be used for processing templates. Handlebars is the default. |
-| ext    | extension to be used for dest files. |
 
 <details>
 <summary>1. git init</summary>
