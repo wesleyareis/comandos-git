@@ -5,53 +5,17 @@
 | :-----:| :------------ | :----------- | :--------- |
 | 1. | *Inicialize* um novo repositório Git | `git init` | - |
 | 2. | Liste todos os arquivos *novos ou modificados* | `git status` | - |
-| 3. | Liste todos os arquivos *novos ou modificados* | `git add` | file  |
-| 3. | Liste todos os arquivos *novos ou modificados* | `git restore` | file  |
-| `git add` | Adiciona o conteúdo dos arquivos ao índice |
-| `git restore` | Descartar alterações do código na área de trabalho |
-| `git status` | Liste todos os arquivos *novos ou modificados* |
-| `git status` | Liste todos os arquivos *novos ou modificados* |
-| `git status` | Liste todos os arquivos *novos ou modificados* |
-| `git status` | Liste todos os arquivos *novos ou modificados* |
-| `git status` | Liste todos os arquivos *novos ou modificados* |
-| `git status` | Liste todos os arquivos *novos ou modificados* |
-| `git status` | Liste todos os arquivos *novos ou modificados* |
-| `git status` | Liste todos os arquivos *novos ou modificados* |
-| `git status` | Liste todos os arquivos *novos ou modificados* |
-| `git status` | Liste todos os arquivos *novos ou modificados* |
-| `git status` | Liste todos os arquivos *novos ou modificados* |
+| 3. | Add ou preparar o código/arquivos para serem commitados | `git add` | .file  |
+| 4. | Descartar alterações do código na área de trabalho | `git restore` | .file  |
+| 5. | Commita o código/arquivos no histórico das versões | `git commit -m` | "mensagem-da-alteração" |
+| 6. | Mostra os últimos commit, log de alterações | `git log` | - |
+| 7. | Permite voltar versões do histórico da branch | `git checkout` | [sua-hash] |
+| 8. | Voltar para última versão ou volta para branch principal | `checkout master` | [nome-da-branch] |
+| 9. | Cria uma nova branch a partir do histórico da branch atual que estamos | `checkout -b` | [nome-da-branch] |
+
 | `git diff` | Mostrar diferenças de arquivos que **não foram** preparados |
 
-- [x] #739
-- [ ] #Atualizar este projeto amanhã
 
-<details>
-<summary>1. git init</summary>
-➡️ Inicialize um novo repositório Git:
-
-```bash
-git init
-```
-</details>
-
-<details>
-<summary>2. git status</summary>
-
-➡️ Use `git status` para listar todos os arquivos novos ou modificados que ainda não foram comitados.
-
-```bash
-git status
-```
-</details>
-
-#### ➡️ Add ou preparar o código/arquivos para serem commitados:
-```bash
-git add <file>
-```
-### Descartar alterações do código na área de trabalho:
-```bash
-git restore <file>
-```
 
 ### Commita o código/arquivos no histórico das versões:
 ```bash
@@ -112,12 +76,10 @@ git pull origin <nome-da-branch>
 git fetch
 ```
 
+- [x] #739
+- [ ] #Atualizar este projeto amanhã
+
 <p>
-git init</br>
-git status</br>
-git add</br>
-git commit</br>
-git log</br>
 git diff</br>
 git branch</br>
 git branch -b</br>
@@ -129,3 +91,20 @@ git pull</br>
 git fetch</br>
 git clone</br>
 </p>
+<hr>
+<details>
+<summary>NOTAS:</summary>
+➡️ Algumas observações importantes:  
+
+1. O comando `git add` podemos usar <font color="magenta">nome-do-arquivo</font> ou simplesmente usar um ponto <font color="magenta">"."</font> para adicionar todos os arquivos não trackeados;  
+
+1. O comando `git restore` podemos usar <font color="magenta">nome-do-arquivo</font> ou simplesmente usar um <font color="magenta">"."</font> para restaurar todos os arquivos que foram adicionados indevidamente;  
+
+>**Detalhe:** Se você tiver qualquer modificação pendente que ainda não foi "comitada". Faça um `git add` e um `git commit -m "sua msg"` antes de realizar um `git checkout` para retornar uma versão.
+
+</details>
+<hr>
+
+Alinhado a esquerda | Centralizado | Alinhado a direita
+:--------- | :------: | -------:
+Valor | Valor | Valor
