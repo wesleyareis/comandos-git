@@ -23,13 +23,15 @@
 - [x] #739
 - [ ] #Atualizar este projeto amanhã
 
+<font color=\"red\">Texto com cor vermelha</font>
+
 <kbd>{c:yellow}Essa é uma frase com fundo escuro e texto amarelo{/c}</kbd>
 
-{c:green}[fa=check-circle/]{/c} Meu Ícone Verde
+{c:green}[fa=check-circle /]{/c} Meu Ícone Verde
 
-{c:red}[fa=times-circle/]{/c} Meu Ícone Vermelho
+{c:red}[fa=times-circle /]{/c} Meu Ícone Vermelho
 
-[size=30][fa=check-circle/] Tamanho 30[/size]
+[size=30][fa=check-circle /] Tamanho 30[/size]
 
 Este é um {c:#B81365}texto colorido com hexadecimal{/c}
 
