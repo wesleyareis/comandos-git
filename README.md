@@ -55,3 +55,78 @@
 Alinhado a esquerda | Centralizado | Alinhado a direita
 :--------- | :------: | -------:
 Valor | Valor | Valor
+
+
+```json
+[
+  {
+    "title": "Verificação de Estrutura antes de Criar Arquivos/Pastas",
+    "description": "Antes de criar novas pastas ou arquivos, sempre verificar a estrutura atual do projeto para evitar duplicações e manter a organização modular. Conferir se já existe um componente, serviço ou módulo com a mesma função. Utilizar nomes claros e coerentes com a arquitetura por domínios/módulos. Criar pastas apenas quando necessário e manter o padrão de nomeação existente (ex: PascalCase para componentes, camelCase para utilitários).",
+    "type": "Always"
+  },
+  {
+    "title": "Arquitetura Modular",
+    "description": "Organizar o projeto por domínios e responsabilidades. Separar lógica de negócio da interface. Evitar arquivos grandes ou com múltiplas responsabilidades.",
+    "type": "Always"
+  },
+  {
+    "title": "Validação de Dados",
+    "description": "Utilizar bibliotecas de validação tipadas (como Zod ou Joi) para validar dados de entrada e saída. Mensagens de erro devem ser claras, exibidas próximas ao campo ou contexto onde ocorreram.",
+    "type": "Always"
+  },
+  {
+    "title": "Tratamento de Erros e Feedback ao Usuário",
+    "description": "Exibir mensagens visuais de erro ou sucesso sempre que necessário. Nunca deixar o usuário sem retorno após ações críticas.",
+    "type": "Always"
+  },
+  {
+    "title": "Reutilização e Padronização de Componentes",
+    "description": "Reutilizar componentes padronizados. Nomear arquivos com clareza e consistência, evitando duplicação de estilos ou lógicas.",
+    "type": "Always"
+  },
+  {
+    "title": "Lazy Loading de Módulos ou Páginas",
+    "description": "Carregar módulos ou páginas sob demanda sempre que possível, para reduzir o tempo de carregamento inicial.",
+    "type": "Always"
+  },
+  {
+    "title": "Indicadores de Carregamento",
+    "description": "Exibir spinners ou skeletons para indicar carregamentos. Nunca deixar a interface congelada ou sem resposta.",
+    "type": "Always"
+  },
+  {
+    "title": "Acessibilidade (a11y) Básica",
+    "description": "Garantir o uso de elementos semânticos, labels, contraste adequado e navegação por teclado.",
+    "type": "Always"
+  },
+  {
+    "title": "Responsividade Mínima",
+    "description": "Garantir que telas importantes funcionem bem em telas pequenas, mesmo que o foco seja desktop.",
+    "type": "Always"
+  },
+  {
+    "title": "Documentação no Código",
+    "description": "Comentar funções reutilizáveis com JSDoc ou equivalente, explicando entradas, saídas e responsabilidade.",
+    "type": "Always"
+  },
+  {
+    "title": "Centralização de Configurações",
+    "description": "Utilizar arquivos de configuração centralizados (ex: config/db.ts, config/theme.ts) para valores e opções reutilizáveis.",
+    "type": "Always"
+  },
+  {
+    "title": "Mensagens e Interface em Português do Brasil",
+    "description": "Toda interface e mensagens devem estar em português do Brasil, inclusive respostas do assistente.",
+    "type": "Always"
+  },
+  {
+    "title": "Planejamento Prévio de Banco de Dados",
+    "description": "Antes de iniciar o frontend, modelar e revisar o banco de dados, suas relações e regras. Isso evita retrabalho e garante consistência.",
+    "type": "Always"
+  },
+  {
+    "title": "Versionamento do Banco de Dados",
+    "description": "Utilizar migrações para versionar alterações no banco, evitando alterações manuais sem histórico.",
+    "type": "Always"
+  }
+]
